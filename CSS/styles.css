@@ -165,8 +165,8 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 189px 0;
-    gap: 46px;
+    padding: 188px 0;
+    row-gap: 48px;
 }
 
 /* ! HERO ITEMS POSITION --- */
@@ -183,7 +183,7 @@ img{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     /* HW3 */
-    width: 496px;
+    max-width: 496px;
     height: 120px;
 
 }
@@ -200,8 +200,10 @@ img{
     /* HW3 */
     padding: 16px 32px;
     border-radius: 4px;
-    border-width: 0px;
+    border:none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    min-width: 169px;
+    height: 56px;
 
 }
 
