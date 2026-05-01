@@ -217,7 +217,35 @@ img{
 
 /* ! HERO STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX HERO STYLE */
 
+
 /* ! BENEFITS STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BENEFITS STYLE */
+
+/* ! BENEFITS ITEMS POSITION +++ */
+
+.benefits {
+    
+    padding: 120px 0;
+    
+}
+
+.visually-hidden{
+    display: none;
+}
+
+.benefits-list{
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-list-item{
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+/* ! BENEFITS POSITION --- */
+
+/* ! BENEFITS ITEMS VISUAL +++ */
 
 /* .benefits{} */
 
@@ -233,6 +261,8 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    /* HW3 */
+    margin-bottom: 8px;
 
 }
 
@@ -244,7 +274,10 @@ img{
 
 }
 
+/* ! BENEFITS ITEMS VISUAL --- */
+
 /* ! BENEFITS STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX BENEFITS STYLE */
+
 
 /* ! TEAM STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TEAM STYLE */
 
