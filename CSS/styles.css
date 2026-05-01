@@ -49,12 +49,13 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-
 /* ! DEFAULT STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX DEFAULT STYLE */
+
 
 /* ! HEADER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER STYLE */
 
 /* ! HEADER ITEMS POSITION +++ */
+
 .header .container{
     display: flex;
     justify-content: space-between;
@@ -62,9 +63,11 @@ img{
 
 .header-navigation{
     display: flex;
-    justify-content: space-between;
-    gap: 76px;
     align-items: center;
+}
+
+.header-navigation-logo{
+    margin-right: 76px;
 }
 
 .header-navigation-list{
@@ -79,15 +82,19 @@ img{
 .header-address-list{
     display: flex;
     gap: 40px;
-    
 }
 
 .header-address-list-item{
     padding: 24px 0;
 }
+
 /* ! HEADER ITEMS POSITION --- */
 
-/* .header{} */
+/* ! HEADER ITEMS VISUAL +++ */
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
 
 /* .header-navigation{} */
 
@@ -99,6 +106,8 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    /* HW3 */
+    /* margin-right: 76px; */
 
 }
 
@@ -143,10 +152,26 @@ img{
     color: #404bbf;
 }
 
+/* ! HEADER ITEMS VISUAL --- */
 
 /* ! HEADER STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX HEADER STYLE */
 
+
 /* ! HERO STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HERO STYLE */
+
+/* ! HERO ITEMS POSITION +++ */
+
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 189px 0;
+    gap: 46px;
+}
+
+/* ! HERO ITEMS POSITION --- */
+
+/* ! HERO ITEMS VISUAL +++ */
 .hero{
     background-color: #2e2f42;
 }
@@ -157,6 +182,9 @@ img{
     text-align:center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    /* HW3 */
+    width: 496px;
+    height: 120px;
 
 }
 
@@ -169,6 +197,11 @@ img{
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor:pointer;
+    /* HW3 */
+    padding: 16px 32px;
+    border-radius: 4px;
+    border-width: 0px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 }
 
@@ -177,6 +210,9 @@ img{
     background-color: #404BBF;
 
 }
+
+/* ! HERO ITEMS VISUAL --- */
+
 /* ! HERO STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX HERO STYLE */
 
 /* ! BENEFITS STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BENEFITS STYLE */
