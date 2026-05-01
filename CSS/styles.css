@@ -2,6 +2,9 @@
 ul,
 ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
@@ -12,7 +15,7 @@ button {
     cursor: pointer;
 }
 
-body{
+body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -22,14 +25,73 @@ body{
     background-color: #FFFFFF;
     
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+img{
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ! DEFAULT STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX DEFAULT STYLE */
 
 /* ! HEADER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER STYLE */
-/* .header-section{} */
 
-/* .header-section-navigation{} */
+/* ! HEADER ITEMS POSITION +++ */
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
 
-.header-section-navigation-logo{
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 76px;
+    align-items: center;
+}
+
+.header-navigation-list{
+    display: flex;
+    gap: 40px;
+}
+
+.header-navigation-list-item{
+    padding: 24px 0;
+}
+
+.header-address-list{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.header-address-list-item{
+    padding: 24px 0;
+}
+/* ! HEADER ITEMS POSITION --- */
+
+/* .header{} */
+
+/* .header-navigation{} */
+
+.header-navigation-logo{
     font-family: "Raleway" sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -40,15 +102,15 @@ body{
 
 }
 
-.header-section-navigation-logo-span{
+.header-navigation-logo-span{
     color: #2e2f42;
 }
 
-/* .header-section-navigation-list{} */
+/* .header-navigation-list{} */
 
-/* .header-section-navigation-list-item{} */
+/* .header-navigation-list-item{} */
 
-.header-section-navigation-list-reference{
+.header-navigation-list-reference{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -56,38 +118,40 @@ body{
     color: #2e2f42;
 }
 
-.header-section-navigation-list-reference:hover,
-.header-section-navigation-list-reference:focus{
+.header-navigation-list-reference:hover,
+.header-navigation-list-reference:focus{
     color: #404bbf;
 }
 
-.header-section-address{
+.header-address{
     font-style: normal;
 }
 
-/* .header-section-address-list{} */
+/* .header-address-list{} */
 
-/* .header-section-address-list-item{} */
+/* .header-address-list-item{} */
 
-.header-section-address-list-reference{
+.header-address-list-reference{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.header-section-address-list-reference:hover,
-.header-section-address-list-reference:focus{
+.header-address-list-reference:hover,
+.header-address-list-reference:focus{
     color: #404bbf;
 }
+
+
 /* ! HEADER STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX HEADER STYLE */
 
 /* ! HERO STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HERO STYLE */
-.hero-section{
+.hero{
     background-color: #2e2f42;
 }
 
-.hero-section-heading{
+.hero-heading{
     font-size: 56px;
     line-height: 1.07;
     text-align:center;
@@ -96,7 +160,7 @@ body{
 
 }
 
-.hero-section-button{
+.hero-button{
     font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -108,8 +172,8 @@ body{
 
 }
 
-.hero-section-button:hover,
-.hero-section-button:focus{
+.hero-button:hover,
+.hero-button:focus{
     background-color: #404BBF;
 
 }
@@ -117,15 +181,15 @@ body{
 
 /* ! BENEFITS STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BENEFITS STYLE */
 
-/* .benefits-section{} */
+/* .benefits{} */
 
-/* .benefits-section-heading{} */
+/* .benefits-heading{} */
 
-/* .benefits-section-list{} */
+/* .benefits-list{} */
 
-/* .benefits-section-list-item{} */
+/* .benefits-list-item{} */
 
-.benefits-section-list-heading{
+.benefits-list-heading{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -134,7 +198,7 @@ body{
 
 }
 
-.benefits-section-list-description{
+.benefits-list-description{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -146,11 +210,11 @@ body{
 
 /* ! TEAM STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TEAM STYLE */
 
-.team-section{
+.team{
     background-color: #F4F4FD;
 }
 
-.team-section-heading{
+.team-heading{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -158,15 +222,15 @@ body{
     color: #2e2f42;
 }
 
-/* .team-section-list{} */
+/* .team-list{} */
 
-.team-section-list-item{
+.team-list-item{
     background-color: #FFFFFF;
 }
 
-/* .team-section-list-image{} */
+/* .team-list-image{} */
 
-.team-section-list-heading{
+.team-list-heading{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -175,7 +239,7 @@ body{
     text-align: center;
 }
 
-.team-section-list-description{
+.team-list-description{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -187,9 +251,9 @@ body{
 /* ! TEAM STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX TEAM STYLE */
 
 /* ! PORTFOLIO STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! PORTFOLIO STYLE */
-/* .portfolio-section{} */
+/* .portfolio{} */
 
-.portfolio-section-heading{
+.portfolio-heading{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -199,13 +263,13 @@ body{
     color: #2e2f42;
 }
 
-/* .portfolio-section-list{} */
+/* .portfolio-list{} */
 
-/* .portfolio-section-list-item{} */
+/* .portfolio-list-item{} */
 
-/* .portfolio-section-list-image{} */
+/* .portfolio-list-image{} */
 
-.portfolio-section-list-heading{
+.portfolio-list-heading{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -213,7 +277,7 @@ body{
     color: #2e2f42;
 }
 
-.portfolio-section-list-description{
+.portfolio-list-description{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -225,11 +289,11 @@ body{
 
 /* ! FOOTER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FOOTER STYLE */
 
-.footer-section{
+.footer{
     background-color: #2e2f42;
 }
 
-.footer-section-logo{
+.footer-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -239,11 +303,11 @@ body{
     color: #4d5ae5;
 }
 
-.footer-section-logo-span{
+.footer-logo-span{
     color: #f4f4fd;
 }
 
-.footer-section-description{
+.footer-description{
     line-height: 1.5;
     left: 0.02em;
     color: #F4F4FD;
