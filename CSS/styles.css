@@ -43,61 +43,40 @@ img{
 }
 
 .container {
+    /* HW3 */
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.visually-hidden {
+    /* HW3 */
+    display: none;
+}
+
 /* ! DEFAULT STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX DEFAULT STYLE */
 
 
 /* ! HEADER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER STYLE */
-
-/* ! HEADER ITEMS POSITION +++ */
-
-.header .container{
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-navigation{
-    display: flex;
-    align-items: center;
-}
-
-.header-navigation-logo{
-    margin-right: 76px;
-}
-
-.header-navigation-list{
-    display: flex;
-    gap: 40px;
-}
-
-.header-navigation-list-item{
-    padding: 24px 0;
-}
-
-.header-address-list{
-    display: flex;
-    gap: 40px;
-}
-
-.header-address-list-item{
-    padding: 24px 0;
-}
-
-/* ! HEADER ITEMS POSITION --- */
-
-/* ! HEADER ITEMS VISUAL +++ */
 
 .header{
     /* HW3 */
     border-bottom: 1px solid #e7e9fc;
 }
 
-/* .header-navigation{} */
+.header .container {
+    /* HW3 */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navigation {
+    /* HW3 */
+    display: flex;
+    align-items: center;
+}
 
 .header-navigation-logo{
     font-family: "Raleway" sans-serif;
@@ -108,17 +87,23 @@ img{
     text-transform: uppercase;
     color: #4d5ae5;
     /* HW3 */
-    /* margin-right: 76px; */
-
+    margin-right: 76px;
 }
 
 .header-navigation-logo-span{
     color: #2e2f42;
 }
 
-/* .header-navigation-list{} */
+.header-navigation-list {
+    /* HW3 */
+    display: flex;
+    gap: 40px;
+}
 
-/* .header-navigation-list-item{} */
+.header-navigation-list-item {
+    /* HW3 */
+    padding: 24px 0;
+}
 
 .header-navigation-list-reference{
     font-weight: 500;
@@ -137,9 +122,16 @@ img{
     font-style: normal;
 }
 
-/* .header-address-list{} */
+.header-address-list {
+    /* HW3 */
+    display: flex;
+    gap: 40px;
+}
 
-/* .header-address-list-item{} */
+.header-address-list-item {
+    /* HW3 */
+    padding: 24px 0;
+}
 
 .header-address-list-reference{
     font-size: 16px;
@@ -153,31 +145,23 @@ img{
     color: #404bbf;
 }
 
-/* ! HEADER ITEMS VISUAL --- */
-
 /* ! HEADER STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX HEADER STYLE */
 
 
 /* ! HERO STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HERO STYLE */
 
-/* ! HERO ITEMS POSITION +++ */
-
 .hero{
+    background-color: #2e2f42;
+    /* HW3 */
     padding: 188px 0;
 }
 
-.hero .container{
+.hero .container {
+    /* HW3 */
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 48px;
-}
-
-/* ! HERO ITEMS POSITION --- */
-
-/* ! HERO ITEMS VISUAL +++ */
-.hero{
-    background-color: #2e2f42;
 }
 
 .hero-heading{
@@ -217,47 +201,32 @@ img{
 
 }
 
-/* ! HERO ITEMS VISUAL --- */
-
 /* ! HERO STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX HERO STYLE */
 
 
 /* ! BENEFITS STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BENEFITS STYLE */
 
-/* ! BENEFITS ITEMS POSITION +++ */
-
 .benefits {
-    
+    /* HW3 */
     padding: 120px 0;
-    
 }
 
-.visually-hidden{
-    display: none;
-}
+/* .benefits .container{} */
 
-.benefits-list{
+/* .benefits-heading{} */  /* visually hidden */
+
+.benefits-list {
+    /* HW3 */
     display: flex;
     gap: 24px;
 }
 
-.benefits-list-item{
+.benefits-list-item {
+    /* HW3 */
     display: flex;
     flex-direction: column;
     width: calc((100% - 3 * 24px) / 4);
 }
-
-/* ! BENEFITS POSITION --- */
-
-/* ! BENEFITS ITEMS VISUAL +++ */
-
-/* .benefits{} */
-
-/* .benefits-heading{} */
-
-/* .benefits-list{} */
-
-/* .benefits-list-item{} */
 
 .benefits-list-heading{
     font-weight: 500;
@@ -278,30 +247,15 @@ img{
 
 }
 
-/* ! BENEFITS ITEMS VISUAL --- */
-
 /* ! BENEFITS STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX BENEFITS STYLE */
 
 
 /* ! TEAM STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TEAM STYLE */
 
-/* ! TEAM POSITION +++ */
-
-.team {
-    padding: 120px 0;
-}
-
-.team-list{
-    display: flex;
-    gap: 24px;
-    justify-content: space-between;
-}
-/* ! TEAM POSITION --- */
-
-/* ! TEAM ITEMS VISUAL +++ */
-
 .team{
     background-color: #F4F4FD;
+    /* HW3 */
+    padding: 120px 0;
 }
 
 .team-heading{
@@ -315,7 +269,12 @@ img{
     height: 40px;
 }
 
-/* .team-list{} */
+.team-list {
+    /* HW3 */
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
 
 .team-list-item{
     /* HW3 */
@@ -351,45 +310,17 @@ img{
     color: #434455;
 }
 
-/* ! TEAM ITEMS VISUAL --- */
-
 /* ! TEAM STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX TEAM STYLE */
 
 
 /* ! PORTFOLIO STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! PORTFOLIO STYLE */
 
-/* ! PORTFOLIO POSITION +++ */
-
-.portfolio{
+.portfolio {
+    /* HW3 */
     padding: 120px 0;
 }
 
-.portfolio-list{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
-
-.portfolio-list-item{
-    width: calc((100%-2*24px)/3);
-}
-
-.portfolio-list-info {
-    padding: 32px 16px;
-}
-/* ! PORTFOLIO POSITION --- */
-
-/* ! PORTFOLIO ITEMS VISUAL +++ */
-
-/* .portfolio{} */
-
-.portfolio-list-info{
-    /* HW3 */
-    height: 120px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
+/* .portfolio .container{} */
 
 .portfolio-heading{
     font-weight: 700;
@@ -404,11 +335,28 @@ img{
     height: 40px;
 }
 
-/* .portfolio-list{} */
+.portfolio-list {
+    /* HW3 */
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 
-/* .portfolio-list-item{} */
+.portfolio-list-item {
+    /* HW3 */
+    width: calc((100%-2*24px)/3);
+}
 
 /* .portfolio-list-image{} */
+
+.portfolio-list-info {
+    /* HW3 */
+        padding: 32px 16px;
+    height: 120px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 .portfolio-list-heading{
     font-weight: 500;
@@ -427,8 +375,6 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-/* ! PORTFOLIO ITEMS VISUAL --- */
 
 /* ! PORTFOLIO STYLE XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX PORTFOLIO STYLE */
 
